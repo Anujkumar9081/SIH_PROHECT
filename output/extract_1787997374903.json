@@ -1,0 +1,90 @@
+[
+  {
+    "product_name": "Wooden Tumbling Tower",
+    "brand_name": "TOYSHINE",
+    "variant": "54 Piece Set",
+    "product_category": "Toys & Games",
+    "net_quantity": "01 Unit",
+    "mrp": "₹ 999.00",
+    "batch_number": "062026",
+    "manufacturing_date": "Jun 2026",
+    "expiry_date": null,
+    "best_before": null,
+    "country_of_origin": "India",
+    "barcode": "8906171040291",
+    "key_claims_and_features": [
+      "54 Piece Set",
+      "6+ Year Age",
+      "Challenge your friends and family to a game of skill and battle of nerves"
+    ],
+    "dosage_or_directions_for_use": "1. Children must use it under the adults' supervision.\n2. Don't throw the toy away to each other.\n3. Don't use it if there is any quality problem.\n4. Don't keep the toy in the mouth to prevent children, devour small parts in the toy.",
+    "ingredients_list": null,
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Sunshine Gifts & Stationers",
+      "address": "Khasra No. 4 3/23, 24, 25, Basti Bawa Khel, Near Rattan Brothers Industries, Jalandhar, Punjab",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "+91-8968572851",
+      "email": "info@toyshine.in",
+      "website": "www.toyshine.in"
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "IS 9873 : (Part -1) : 2019, CM/L - 9900052421",
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {
+      "commodity": "Toy",
+      "model_no": "HT002A",
+      "product_dimensions": "69mm x 69mm x 300mm",
+      "marketed_by": "Sunshine Gifting, Sunshine gifts & stationers, Leather complex, Jalandhar, Punjab 144002"
+    }
+  },
+  {
+    "product_name": "TATA 1mg Medicated First Aid Dressing",
+    "brand_name": "TATA 1mg",
+    "variant": "Transparent Strips",
+    "product_category": "Medical Supplies / First Aid",
+    "net_quantity": "20 N",
+    "mrp": "₹ 60.00",
+    "batch_number": "NT262203011",
+    "manufacturing_date": "JUL-2026",
+    "expiry_date": "JUN-2029",
+    "best_before": null,
+    "country_of_origin": "India",
+    "barcode": "89061513140439",
+    "key_claims_and_features": [
+      "Advanced Protection for Cuts & Scrapes",
+      "Wash Proof",
+      "Antiseptic Protection",
+      "Long Hold"
+    ],
+    "dosage_or_directions_for_use": "Clean the wound and dry the surrounding skin. Hold the Tata 1mg Medicated First Aid Dressing by the protective strips with the pad side facing down. Place the pad on the wound, conveniently peel away the strips. Uniformly and press the sticky edges of the dressing down on the skin. For best results, change the dressing daily or until wound is healed. Intended Use: To help in protection of minor cuts & scrapes from external contamination. For single use only. Store in a cool & dry place. For external use only.",
+    "ingredients_list": [
+      "Benzalkonium Chloride Solution IP equivalent to Benzalkonium Chloride 0.5% w/w"
+    ],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Neptune Orthopedics Pvt. Ltd.",
+      "address": "Plot No. 375, 376, 227 & 228, GIDC, Odhav, Ahmedabad, Gujarat (India) - 382415",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "+91-1800-1022200",
+      "email": "care@1mg.com",
+      "website": null
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "Mfg. Lic. No.: MFG/MD/2020/000040",
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {
+      "size": "70mm x 19mm",
+      "unit_sale_price": "₹ 3.00 / PCS per Strip",
+      "marketed_by": "TATA 1MG Healthcare Solutions Pvt. Ltd., Address: B-23, 2nd Floor, G.T. Karnal Road, Industrial Area, New Delhi - 110033"
+    }
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "product_name": "Cadbury Gems Doraemon",
+    "brand_name": "Cadbury",
+    "variant": "Doraemon Water Card Inside",
+    "product_category": "Confectionery",
+    "net_quantity": "24.67 g",
+    "mrp": "₹20.00",
+    "batch_number": "160723 B2711",
+    "manufacturing_date": "16/07/23",
+    "expiry_date": null,
+    "best_before": "12 Months from Packaging",
+    "country_of_origin": "India",
+    "barcode": "7622201819331",
+    "key_claims_and_features": [
+      "Free Doraemon Water Card Inside",
+      "Surprise Inside",
+      "Win Doraemon Gadgets"
+    ],
+    "dosage_or_directions_for_use": null,
+    "ingredients_list": [],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Mondelez India Foods Private Limited",
+      "address": "Unit No. 2001, 20th Floor, Tower-3 (Wing C), Indiabulls Finance Centre, Parel, Mumbai - 400 013",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "1800 22 7080",
+      "email": "suggestions@mdlzindia.com",
+      "website": null
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": "10014022002711",
+      "legal_registrations": null,
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {}
+  },
+  {
+    "product_name": "TATA 1mg Medicated First Aid Dressing",
+    "brand_name": "TATA 1mg",
+    "variant": "Washproof Transparent Strip",
+    "product_category": "First Aid / Medical Supplies",
+    "net_quantity": "Pack of 20",
+    "mrp": "₹50.00",
+    "batch_number": "M72623U2511",
+    "manufacturing_date": "07-2023",
+    "expiry_date": "06-2026",
+    "best_before": "36 Months",
+    "country_of_origin": "India",
+    "barcode": null,
+    "key_claims_and_features": [
+      "Advanced Protection for Cuts & Scrapes",
+      "Washproof",
+      "Strong Hold",
+      "Antiseptic Protection",
+      "Transparent Strip"
+    ],
+    "dosage_or_directions_for_use": null,
+    "ingredients_list": [],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Tata 1mg Healthcare Solutions Private Limited",
+      "address": "Level 3, Vantage Plaza, MG Road, Gurgaon, Haryana 122002",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "1800 212 2100",
+      "email": "care@1mg.com",
+      "website": "www.1mg.com"
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "MFG/D/2021/000035",
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {}
+  },
+  {
+    "product_name": "Toyshine Wooden Tumbling Tower",
+    "brand_name": "Toyshine",
+    "variant": "54 Piece Set",
+    "product_category": "Toys & Games",
+    "net_quantity": "01 Unit",
+    "mrp": "₹999.00",
+    "batch_number": "062026",
+    "manufacturing_date": "Jun 2026",
+    "expiry_date": null,
+    "best_before": null,
+    "country_of_origin": "India",
+    "barcode": "8906171040291",
+    "key_claims_and_features": [
+      "54 Piece Set",
+      "6+ Year Age",
+      "Challenge your friends and family to a game of skill and battle of nerves"
+    ],
+    "dosage_or_directions_for_use": null,
+    "ingredients_list": [],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Sunshine Gifts & Stationers",
+      "address": "Khasra No. 4 3/23, 24, 25, Basti Bawa Khel, Near Rattan Brothers Industries, Jalandhar, Punjab 144002",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "+91-8968572851",
+      "email": "info@toyshine.in",
+      "website": "www.toyshine.in"
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "IS 9873 (Part 1) : 2019, CM/L - 9800052421",
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {
+      "model_no": "HT002A",
+      "dimensions": "69mm x 69mm x 300mm"
+    }
+  },
+  {
+    "product_name": "Alps Goodness Sandalwood Powder For Skin & Hair",
+    "brand_name": "Alps Goodness",
+    "variant": "Sandalwood Powder",
+    "product_category": "Personal Care / Skincare",
+    "net_quantity": "50 g",
+    "mrp": null,
+    "batch_number": null,
+    "manufacturing_date": null,
+    "expiry_date": null,
+    "best_before": null,
+    "country_of_origin": "India",
+    "barcode": null,
+    "key_claims_and_features": [
+      "100% natural",
+      "Powder for Skin & Hair",
+      "Goodness of sandalwood"
+    ],
+    "dosage_or_directions_for_use": null,
+    "ingredients_list": [
+      "Sandalwood Powder"
+    ],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Raj Herbs and Ayurvedic Products",
+      "address": null,
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": null,
+      "email": null,
+      "website": "www.purplle.com"
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": null,
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {}
+  }
+]

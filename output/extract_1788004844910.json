@@ -1,0 +1,118 @@
+[
+  {
+    "product_name": "JOY Honey & Almonds Advanced Nourishing Body Lotion",
+    "brand_name": "JOY",
+    "variant": "Honey & Almonds",
+    "product_category": "Body Lotion",
+    "net_quantity": "500ml",
+    "mrp": "₹ 390.00",
+    "batch_number": "BR23847",
+    "manufacturing_date": "12/25",
+    "expiry_date": null,
+    "best_before": "11/28",
+    "country_of_origin": "India",
+    "barcode": "8904035413168",
+    "key_claims_and_features": [
+      "Nourishes and restores suppleness of skin",
+      "Honey hydrates to help skin retain its moisture",
+      "Almond Oil relieves dry skin",
+      "Deep nourishment",
+      "Natural skin care",
+      "With Wheatgerm Oil & Natural Sunscreen",
+      "Nourishes, Softens, Moisturizes"
+    ],
+    "dosage_or_directions_for_use": "Apply daily all over the face and body.",
+    "ingredients_list": [
+      "Aqua",
+      "Mineral Oil",
+      "Glycerine",
+      "Glyceryl Monostearate",
+      "Cetyl Alcohol",
+      "Isopropyl Palmitate",
+      "Stearic Acid",
+      "Dimethicone",
+      "Methyl Paraben",
+      "Propyl Paraben",
+      "Wheatgerm Oil",
+      "Lanolin Anhydrous",
+      "Triethanolamine",
+      "Disodium EDTA",
+      "Propylene Glycol",
+      "Octyl Methoxy Cinnamate",
+      "Aloe Barbadensis (Aloe Vera) Extract",
+      "Fragrance",
+      "Honey Extract",
+      "Almond Oil",
+      "Shea Butter",
+      "Butylated Hydroxy Toluene",
+      "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "CI 15985",
+      "CI 19140"
+    ],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "RSH GLOBAL PVT. LTD.",
+      "address": "PLOT NO. 74, DIC INDL. AREA, BADDI 173 205 (H.P.)",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "1800-1205-40000",
+      "email": "CUSTOMERCARE@RSHGLOBAL.COM",
+      "website": null
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "M.L. NO. HIM/COS/14/196",
+      "packaging_thickness": "MINIMUM THICKNESS OF THE PACKAGING IS 500 MICRON"
+    },
+    "other_extracted_data": {
+      "unit_sale_price": "₹ 0.78/ml"
+    }
+  },
+  {
+    "product_name": "TATA 1mg Medicated First Aid Dressing",
+    "brand_name": "TATA 1mg",
+    "variant": "Transparent Strips",
+    "product_category": "First Aid Medical Dressing",
+    "net_quantity": "20 N",
+    "mrp": "₹ 56.00",
+    "batch_number": "NT262203011",
+    "manufacturing_date": "JUL-2026",
+    "expiry_date": "JUN-2029",
+    "best_before": null,
+    "country_of_origin": "India",
+    "barcode": "8906151140409",
+    "key_claims_and_features": [
+      "Advanced Protection for Cuts & Scrapes",
+      "Washproof",
+      "Long lasting Hold",
+      "Antiseptic Protection",
+      "Transparent Strips"
+    ],
+    "dosage_or_directions_for_use": "Clean the wound and dry the surrounding skin. Hold the Tata 1mg Medicated First Aid Dressing by the protective strips with the pad side facing down. Place the pad on the wound, conveniently peel away the strips uniformly and press the sticky edges of the dressing down on the skin. For best results, change the dressing daily until wound is healed.",
+    "ingredients_list": [
+      "Benzalkonium Chloride Solution I.P. equivalent to Benzalkonium Chloride 0.5% w/w"
+    ],
+    "nutritional_facts": {},
+    "manufacturer": {
+      "name": "Neptune Orthopaedics Pvt. Ltd.",
+      "address": "Plot No. 375, 378, 387 & 390, GIDC, Odhav, Ahmedabad, Gujarat (India) - 382415",
+      "manufacturing_units": []
+    },
+    "customer_care": {
+      "phone": "+91-995-8932200",
+      "email": "care@1mg.com",
+      "website": null
+    },
+    "regulatory_and_certifications": {
+      "fssai_license_number": null,
+      "legal_registrations": "Mfg. Lic. No. : MFG/MD/2026/000060",
+      "packaging_thickness": null
+    },
+    "other_extracted_data": {
+      "size": "70mm X 19mm",
+      "unit_sale_price": "₹ 2.80 / PCS",
+      "marketed_by": "TATA 1MG Healthcare Solutions Pvt. Ltd., B-23, 2nd Floor, G.T. Karnal Road, Industrial Area, New Delhi - 110033"
+    }
+  }
+]
