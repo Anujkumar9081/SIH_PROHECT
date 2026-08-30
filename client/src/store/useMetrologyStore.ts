@@ -129,8 +129,9 @@ export const useMetrologyStore = create<MetrologyStoreState>()(
           }, 600);
           
         } catch (error) {
+           clearInterval(interval);
            console.error("Analysis failed", error);
-           set({ isAnalyzing: false, activePage: 'scan' });
+           set({ isAnalyzing: false, activePage: 'scan', analysisProgress: 0 });
            get().addToast({ type: 'error', title: 'Analysis Failed', message: 'Could not connect to OCR service.' });
         }
       },

@@ -221,7 +221,31 @@ export async function generateInspectionPDF(record: ProductInspection, targetIma
     }
   }
 
-  // Footer & Official Seal Stamp
+  // Add Structured Format
+  if (record.rawData) {
+    doc.addPage();
+    let structuredY = margin;
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(11);
+    doc.text('4. Structured Format (Raw Product Details)', margin, structuredY);
+    structuredY += 10;
+    
+    doc.setFont('courier', 'normal');
+    doc.setFontSize(8);
+    const jsonString = JSON.stringify(record.rawData, null, 2);
+    const jsonLines = doc.splitTextToSize(jsonString, pageWidth - (margin * 2));
+    
+    for (let i = 0; i < jsonLines.length; i++) {
+      if (structuredY > 270) {
+        doc.addPage();
+        structuredY = margin;
+      }
+      doc.text(jsonLines[i], margin, structuredY);
+      structuredY += 4;
+    }
+  }
+
+  // Footer & Official Seal Stamp (Adds to final page)
   const footerY = 270;
   doc.setDrawColor(203, 213, 225);
   doc.line(margin, footerY, pageWidth - margin, footerY);

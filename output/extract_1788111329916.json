@@ -1,25 +1,23 @@
 [
   {
-    "product_name": "Joy Honey & Almonds New Advanced Nourishing Body Lotion",
-    "brand_name": "JOY",
+    "product_name": "Joy Honey & Almonds Advanced Nourishing Body Lotion",
+    "brand_name": "Joy",
     "variant": "Honey & Almonds",
     "product_category": "Body Lotion",
     "net_quantity": "500 ml",
     "mrp": "₹390.00",
     "batch_number": "BR23847",
     "manufacturing_date": "12/23",
-    "expiry_date": null,
-    "best_before": "11/28",
+    "expiry_date": "11/28",
+    "best_before": null,
     "country_of_origin": "India",
     "barcode": "8904035413168",
     "key_claims_and_features": [
-      "With Wheatgerm Oil & Natural Sunscreen",
-      "Deep Nourishment",
-      "Natural Skin Care",
       "Nourishes and restores suppleness of skin",
       "Honey hydrates to help skin retain its moisture",
       "Almond Oil relieves dry skin",
-      "Softens and moisturizes skin"
+      "With Wheatgerm Oil & Natural Sunscreen",
+      "Deep nourishment for natural skin care"
     ],
     "dosage_or_directions_for_use": "Apply daily all over the face and body.",
     "ingredients_list": [
@@ -52,8 +50,14 @@
     "nutritional_facts": null,
     "manufacturer": {
       "name": "RSH Global Pvt. Ltd.",
-      "address": "Plot No. 74, DIC Indl. Area, Baddi 173 205 (H.P.)",
-      "manufacturing_units": []
+      "address": "74, DIC Indl. Area, Baddi 173 205 (H.P.)",
+      "manufacturing_units": [
+        {
+          "code": "M.L. NO. HIM/COS/14/196",
+          "name": "RSH Global Pvt. Ltd.",
+          "address": "74, DIC Indl. Area, Baddi 173 205 (H.P.)"
+        }
+      ]
     },
     "customer_care": {
       "phone": "1800-1205-40000",
@@ -62,13 +66,12 @@
     },
     "regulatory_and_certifications": {
       "fssai_license_number": null,
-      "legal_registrations": "M.L. NO. HIM/COS/14/196, RSH REGN. NO. BO-11-000-09-AAFCRO379P-23",
+      "legal_registrations": "RSH REGN. NO. BO-11-000-09-AAACR0379P-23",
       "packaging_thickness": "500 MICRON"
     },
     "other_extracted_data": {
       "unit_sale_price": "₹ 0.78/ml",
-      "tm_owners": "Joy Creators LLP",
-      "corporate_address": "119, Park Street, Kolkata 700 016"
+      "marketed_by": "RSH Global Pvt. Ltd., 119, Park Street, Kolkata 700 016"
     }
   }
 ]
