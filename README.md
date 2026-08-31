@@ -26,3 +26,7 @@ This project has three main parts:
 
    ```bash
    npm install
+   ```
+   How to run backend = ```node server.js```
+   
+   How to run front tent, react = in the client file run ``` npm run dev```
