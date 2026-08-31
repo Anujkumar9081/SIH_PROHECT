@@ -168,6 +168,8 @@ export const useMetrologyStore = create<MetrologyStoreState>()(
       name: 'legal-metrology-gov-store',
       partialize: (state) => ({
         inspections: state.inspections,
+        currentUser: state.currentUser,
+        activePage: state.activePage,
       }),
     }
   )

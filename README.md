@@ -1,55 +1,55 @@
-# AI-Powered Product Inspection & Data Extraction System
+# Gemini OCR Node & React Application
 
-## Smart India Hackathon (SIH) Project
+This is a full-stack application for OCR (Optical Character Recognition) and product data extraction using the Google Gemini API. It consists of a Node.js/Express backend and a React (Vite) frontend.
 
-An AI-powered product inspection system that allows an inspector to upload images of a product or product packaging and automatically extracts important product information into a structured JSON format.
+## Prerequisites
 
-The system combines **OCR, Google Gemini Vision/AI, and a React-based interface** to transform product images into structured and machine-readable information.
+Before you begin, ensure you have the following installed:
+*   [Node.js](https://nodejs.org/) (v16 or higher recommended)
+*   [npm](https://www.npmjs.com/) (usually comes with Node.js)
+*   **MongoDB**: You must have a MongoDB database running (either [installed locally](https://www.mongodb.com/try/download/community) or a cloud cluster via [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)).
+*   **Gemini API Key**: You can get one for free from [Google AI Studio](https://aistudio.google.com/).
 
----
+## Setup Instructions
 
-##  Project Overview
+This project has two parts: the backend server and the frontend client. You need to set up and run both.
 
-During product inspection, important information is often printed on different sides of product packaging.
+### 1. Backend Setup
 
-An inspector may need to manually search for information such as:
+1.  Open your terminal and navigate to the root directory of this project (`gemini-ocr-node`).
+2.  Install the backend dependencies:
+    ```bash
+    npm install
+    ```
+3.  Set up the environment variables:
+    ```bash
+    cp .env.example .env
+    ```
+    After copying, open the new `.env` file and replace `"YOUR_API_KEY_HERE"` with your actual Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+4.  Start the backend server:
+    ```bash
+    node server.js
+    ```
+    The server should start running on `http://localhost:3001`.
 
-- Product name
-- Brand
-- Product category
-- Variant
-- Net quantity
-- MRP
-- Batch number
-- Manufacturing date
-- Expiry date
-- Best-before information
-- Barcode
-- Country of origin
-- Manufacturer details
-- Manufacturer address
-- Customer-care information
-- Ingredients
-- Product claims
-- Directions for use
-- Regulatory information
-- Other relevant information printed on the package
+### 2. Frontend (Client) Setup
 
-This project automates the initial information extraction process.
+1.  Open a **new** terminal window (leave the backend server running in the first one).
+2.  Navigate to the `client` directory:
+    ```bash
+    cd client
+    ```
+3.  Install the frontend dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the frontend development server:
+    ```bash
+    npm run dev
+    ```
+5.  The terminal will display a local URL (usually `http://localhost:5173`). Open this URL in your web browser to use the application.
 
-### Basic workflow
+## Project Structure
 
-```text
-Product Images
-      ↓
-Image Upload
-      ↓
-OCR / Text Recognition
-      ↓
-AI-Based Understanding
-      ↓
-Structured Data Extraction
-      ↓
-JSON Output
-      ↓
-Inspector Review
+*   `/`: Contains the Node.js backend server (`server.js`), package configurations, and uploaded/extracted files.
+*   `/client`: Contains the React frontend application built with Vite and Tailwind CSS.

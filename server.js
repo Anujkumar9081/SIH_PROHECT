@@ -5,6 +5,10 @@ const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const connectDB = require("./server/config/database");
+
+// Connect to database
+connectDB();
 
 const app = express();
 const PORT = 3001;
@@ -12,40 +16,8 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json()); // To parse JSON request bodies
 
-// In-memory database for users
-const users = [];
-
-// API endpoint for Sign Up
-app.post("/api/signup", (req, res) => {
-  const { badgeId, password, name, state, district } = req.body;
-  if (!badgeId || !password || !name || !state || !district) {
-    return res.status(400).json({ error: "All fields are required" });
-  }
-
-  // Check if user exists
-  const existingUser = users.find(u => u.badgeId === badgeId);
-  if (existingUser) {
-    return res.status(409).json({ error: "Badge ID already registered" });
-  }
-
-  const newUser = { badgeId, password, name, state, district };
-  users.push(newUser);
-  
-  // Return user without password
-  res.status(201).json({ user: { badgeId, name, state, district } });
-});
-
-// API endpoint for Login
-app.post("/api/login", (req, res) => {
-  const { badgeId, password } = req.body;
-  
-  const user = users.find(u => u.badgeId === badgeId && u.password === password);
-  if (!user) {
-    return res.status(401).json({ error: "Invalid badge ID or password" });
-  }
-
-  res.status(200).json({ user: { badgeId: user.badgeId, name: user.name, state: user.state, district: user.district } });
-});
+// Routes
+app.use('/api', require('./server/routes/auth'));
 // Configure multer for file uploads
 const uploadDir = path.join(__dirname, "uploads");
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir);
