@@ -8,7 +8,7 @@ The system combines **OCR, Google Gemini Vision/AI, and a React-based interface*
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 During product inspection, important information is often printed on different sides of product packaging.
 
